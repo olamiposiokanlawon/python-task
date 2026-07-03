@@ -1,9 +1,13 @@
+
+
+def mergeLists(list1, list2):
+    mergedList = list1 + list2
+    return mergedList
+
 list1 = [1, 2, 3]
 list2 = [4, 5, 6]
 
-list3 = list1 + list2
-
-print(list3)
+print(mergeLists(list1, list2))
 
 def secondLargest(numbers):
     numbers = list(set(numbers))
